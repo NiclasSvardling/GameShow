@@ -16,7 +16,7 @@ export const ControllerHeader: React.FC = () => {
             className='text-[#86efac] cursor-pointer'
             icon={faThumbsUp}
             onClick={() => {
-              setAudioPlay({ audio: '/correct.mp3', play: true, seed: Math.random() })
+              setAudioPlay({ audio: '/GameShow/correct.mp3', play: true, seed: Math.random() })
               // let audio = new Audio('/correct.mp3')
               // audio.play()
             }}
@@ -25,7 +25,7 @@ export const ControllerHeader: React.FC = () => {
             className='cursor-pointer text-[#f43f5e]'
             icon={faThumbsDown}
             onClick={() => {
-              setAudioPlay({ audio: '/incorrect.mp3', play: true, seed: Math.random() })
+              setAudioPlay({ audio: '/GameShow/incorrect.mp3', play: true, seed: Math.random() })
             }}
           />
         </div>

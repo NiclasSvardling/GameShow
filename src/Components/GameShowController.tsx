@@ -68,7 +68,7 @@ export const GameShowController: React.FC = () => {
   const [teams, setTeams] = useLocalStorage<TeamModel[] | undefined>('Teams', undefined)
   const [audioPlay, setAudioPlay] = useLocalStorage<
     { audio: string; play: boolean; seed?: number } | undefined
-  >('audioPlay', { audio: '/intro.mp3', play: false, seed: Math.random() })
+  >('audioPlay', { audio: '/GameShow/intro.mp3', play: false, seed: Math.random() })
 
   const startNameGame = async () => {
     //fetchGame()
@@ -81,7 +81,7 @@ export const GameShowController: React.FC = () => {
     setJeopardyGame(undefined)
     localStorage.setItem('GameType', '0')
 
-    setAudioPlay({ audio: '/nextRound.mp3', play: true, seed: Math.random() })
+    setAudioPlay({ audio: '/GameShow/nextRound.mp3', play: true, seed: Math.random() })
   }
 
   const toStartpage = () => {
@@ -300,21 +300,22 @@ export const GameShowController: React.FC = () => {
           <NiButton Text='Start Jeopardy Game' onClick={() => startJeopardyGame()}></NiButton>
           <Dropdown
             onChange={e => {
-              setAudioPlay({ audio: '/' + e.currentTarget.value + '.mp3', play: false })
+              setAudioPlay({ audio: '/GameShow/' + e.currentTarget.value + '.mp3', play: false })
             }}
             options={getAudioDropDown()}></Dropdown>
           <NiButton
             Text='Play'
             onClick={() => {
+              console.log(audioPlay)
               if (audioPlay) {
-                setAudioPlay({ ...audioPlay, play: true })
+                setAudioPlay({ ...audioPlay, play: true, seed: Math.random() })
               }
             }}></NiButton>
           <NiButton
             Text='Pause'
             onClick={() => {
               if (audioPlay) {
-                setAudioPlay({ ...audioPlay, play: false })
+                setAudioPlay({ ...audioPlay, play: false, seed: Math.random() })
               }
             }}></NiButton>
         </div>

@@ -22,7 +22,7 @@ export const SurveryTextBox: React.FC<SurveryTextBoxProps> = ({
       onClick={() => {
         if (controller) {
           if (!surveyBox.isRevealed) {
-            let audio = new Audio('/correct.mp3')
+            let audio = new Audio('/GameShow/correct.mp3')
             audio.play()
           }
           setSurvey(p => {

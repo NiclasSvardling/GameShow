@@ -11,7 +11,7 @@ interface NameGameBox {
 export const NameGameBox: React.FC<NameGameBox> = ({ item, className, controllerView }) => {
   useEffect(() => {
     if (!controllerView && item.revealed) {
-      let audio = new Audio('/correct.mp3')
+      let audio = new Audio('/GameShow/correct.mp3')
       audio.play()
     }
   }, [item.revealed])

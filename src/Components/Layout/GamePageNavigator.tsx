@@ -50,6 +50,7 @@ export const GamePageNavigator: React.FC = () => {
   }, [tts])
 
   useEffect(() => {
+    console.log(audioPlay)
     if (audioPlay !== undefined) {
       let audio = new Audio(audioPlay.audio)
       if (audioPlay.play) {
@@ -64,7 +65,7 @@ export const GamePageNavigator: React.FC = () => {
         }
       }
     }
-  }, [audioPlay])
+  }, [audioPlay, audioPlay?.play])
 
   useEffect(() => {
     const handleKeyPress = (event: KeyboardEvent) => {
