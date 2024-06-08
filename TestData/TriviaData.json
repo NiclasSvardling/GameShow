@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "Venus",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "Mars",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "optionText": "Jupiter",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "optionText": "Saturn",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What is the smallest country in the world?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "Monaco",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "San Marino",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "optionText": "Vatican City",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "optionText": "Liechtenstein",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Which country is famous for its tulips?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "Netherlands",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "optionText": "France",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "optionText": "Belgium",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "optionText": "Turkey",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Who painted the Mona Lisa?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "Vincent van Gogh",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "Leonardo da Vinci",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "optionText": "Pablo Picasso",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "optionText": "Michelangelo",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is the tallest mammal?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "Giraffe",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "optionText": "Elephant",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "optionText": "Hippopotamus",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "optionText": "Rhinoceros",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Which planet has the most moons in our solar system?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "Saturn",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "Jupiter",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "optionText": "Uranus",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "optionText": "Neptune",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What is the chemical symbol for water?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "O2",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "H2O",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "optionText": "CO2",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "optionText": "NaCl",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What is the primary ingredient in guacamole?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "Tomato",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "Avocado",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "optionText": "Onion",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "optionText": "Lime",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Which planet is closest to the sun?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "Mars",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "Earth",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "optionText": "Venus",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "optionText": "Mercury",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Who wrote 'To Kill a Mockingbird'?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "J.K. Rowling",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "Harper Lee",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "optionText": "George Orwell",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "optionText": "Ernest Hemingway",
+        "isCorrect": false
+      }
+    ]
+  }
+]

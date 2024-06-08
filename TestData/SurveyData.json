@@ -1,0 +1,40 @@
+{
+  "id": 1,
+  "surveyTitle": "Bra mat (enligt Niclas)",
+  "surveyEntries": [
+    {
+      "id": 0,
+      "entry": "Köttbullar"
+    },
+    {
+      "id": 1,
+      "entry": "Pizza"
+    },
+    {
+      "id": 2,
+      "entry": "Burger"
+    },
+    {
+      "id": 3,
+      "entry": "Pannkaka"
+    },
+    {
+      "id": 4,
+      "entry": "Pommes"
+    },
+    {
+      "id": 5,
+      "entry": "Kyckling"
+    },
+    {
+      "id": 6,
+      "entry": "Kaviar"
+    },
+    {
+      "id": 7,
+      "entry": "Köttbullar"
+    }
+  ]
+
+}
+
