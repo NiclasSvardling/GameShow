@@ -37,7 +37,7 @@ body {
     padding: 16px;
     overflow-x:hidden;
     /*background-color:cadetblue;*/
-    background-image: url("bg_cyber.png");
+    background-image: url("/GameShow/bg_cyber.png");
 }
 
 h1 {

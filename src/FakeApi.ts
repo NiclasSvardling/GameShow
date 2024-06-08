@@ -2,7 +2,7 @@ import { GameNameModel, JeopardyModel, SurveyGameModel, TranslateSongQuizModel, 
 
 
 export const fetchNameGame = async (): Promise<GameNameModel> => {
-    const response = await fetch('/TestData/NameGameDecerno.json');
+    const response = await fetch(`${window.location.origin}/GameShow/TestData/NameGameDecerno.json`);
     if (!response.ok) {
         throw new Error('Network response was not ok');
     }
@@ -12,7 +12,7 @@ export const fetchNameGame = async (): Promise<GameNameModel> => {
 
 
 export const fetchJeopardy = async (): Promise<JeopardyModel[]> => {
-    const response = await fetch('/TestData/JeopardyData.json');
+    const response = await fetch(`${window.location.origin}/GameShow/TestData/JeopardyData.json`);
     if (!response.ok) {
         throw new Error('Network response was not ok');
     }
@@ -21,7 +21,7 @@ export const fetchJeopardy = async (): Promise<JeopardyModel[]> => {
 };
 
 export const fetchTranslateGame= async (): Promise<TranslateSongQuizModel[]> => {
-    const response = await fetch('/TestData/EurovisionTranslate.json');
+    const response = await fetch(`${window.location.origin}/GameShow/TestData/EurovisionTranslate.json`);
     if (!response.ok) {
         throw new Error('Network response was not ok');
     }
@@ -31,7 +31,8 @@ export const fetchTranslateGame= async (): Promise<TranslateSongQuizModel[]> => 
 
 
 export const fetchSurveyGame = async (): Promise<SurveyGameModel> => {
-    const response = await fetch('/TestData/SurveyData.json');
+    const response = await fetch(`${window.location.origin}/GameShow/TestData/SurveyData.json`);
+    console.log(response)
     if (!response.ok) {
         throw new Error('Network response was not ok');
     }
@@ -41,7 +42,7 @@ export const fetchSurveyGame = async (): Promise<SurveyGameModel> => {
 
 
 export const fetchTriviaGame = async (): Promise<TriviaQuestion[]> => {
-    const response = await fetch('/TestData/TriviaData.json');
+    const response = await fetch(`${window.location.origin}/GameShow/TestData/TriviaData.json`);
     if (!response.ok) {
         throw new Error('Network response was not ok');
     }
