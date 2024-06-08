@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import { TriviaGameModel } from '../../Model/TriviaModel'
 import useLocalStorage from '../../Hooks/localStorageHook'
 import { NiButton } from './NiButton'

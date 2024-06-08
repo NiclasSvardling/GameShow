@@ -66,6 +66,19 @@ export const GamePageNavigator: React.FC = () => {
     }
   }, [audioPlay])
 
+  useEffect(() => {
+    const handleKeyPress = (event: KeyboardEvent) => {
+      if (event.key.toLowerCase() === 'l') {
+        window.open('/controller', '_blank')
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyPress)
+    return () => {
+      window.removeEventListener('keydown', handleKeyPress)
+    }
+  }, [navigate])
+
   return (
     <>
       <Outlet />
