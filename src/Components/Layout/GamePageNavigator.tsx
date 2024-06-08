@@ -69,7 +69,7 @@ export const GamePageNavigator: React.FC = () => {
   useEffect(() => {
     const handleKeyPress = (event: KeyboardEvent) => {
       if (event.key.toLowerCase() === 'l') {
-        window.open('controller', '_blank')
+        window.open('#/controller', '_blank')
       }
     }
 
