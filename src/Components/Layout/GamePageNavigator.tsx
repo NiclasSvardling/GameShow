@@ -12,22 +12,22 @@ export const GamePageNavigator: React.FC = () => {
     if (gameType !== undefined) {
       switch (gameType.toString()) {
         case '-1':
-          navigate('/')
+          navigate('')
           break
         case '0':
-          navigate('/NameGame')
+          navigate('NameGame')
           break
         case '1':
-          navigate('/Trivia')
+          navigate('Trivia')
           break
         case '2':
-          navigate('/TranslateQuiz')
+          navigate('TranslateQuiz')
           break
         case '3':
-          navigate('/SurveyGuess')
+          navigate('SurveyGuess')
           break
         case '4':
-          navigate('/JeopardyGame')
+          navigate('JeopardyGame')
           break
       }
     }
@@ -69,7 +69,7 @@ export const GamePageNavigator: React.FC = () => {
   useEffect(() => {
     const handleKeyPress = (event: KeyboardEvent) => {
       if (event.key.toLowerCase() === 'l') {
-        window.open('/controller', '_blank')
+        window.open('controller', '_blank')
       }
     }
 
