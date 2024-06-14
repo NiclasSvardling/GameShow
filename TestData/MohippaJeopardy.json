@@ -1,0 +1,219 @@
+﻿[
+  {
+    "id": 0,
+    "theme": "Internet memes",
+    "questions": [
+      {
+        "id": 0,
+        "question": "Denna meme, som kommer från en YouTube-video från 2011, visar en man som spelar ett smittsamt saxofonsolo.",
+        "answer": "Vem är \"Epic Sax Guy\"?",
+        "isDailyDouble": false
+      },
+      {
+        "id": 1,
+        "question": "Denna meme, som kommer från en viral bild från 2013, visar en Shiba Inu-hund med interna monologerade bildtexter skrivna i en unik stil.",
+        "answer": "Vad är \"Doge\"-memeet?",
+        "isDailyDouble": false
+      },
+      {
+        "id": 2,
+        "question": "Förnamnet på denna unge man, som bär vita skor.",
+        "answer": "Vad är Daniel?",
+        "isDailyDouble": false
+      },
+      {
+        "id": 3,
+        "question": "Denna webbplats, som visar videor (vanligtvis med djur) och bildmakron, skapades år 2007 och populariserade internetmemes.",
+        "answer": "Vad är \"I Can Has Cheezburger?\"?",
+        "isDailyDouble": false
+      },
+      {
+        "id": 4,
+        "question": "Denna kvinna, i en YouTube-video från 2016, säger \"cash me ousside, how 'bout dat?\" under en episod av Dr. Phil.",
+        "answer": "Vem är Danielle Bregoli (bhad bhabie)?",
+        "isDailyDouble": false
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "theme": "Möhippa och bröllop",
+    "questions": [
+      {
+        "id": 0,
+        "question": "Detta firas när ett par har varit gifta i 50 år och är traditionellt förknippat med en ädel metall",
+        "answer": "Var är guldbröllop?",
+        "isDailyDouble": false
+      },
+      {
+        "id": 1,
+        "question": "Året då Prins Harry och Meghan Markle gifte sig",
+        "answer": "Vad är 2018?",
+        "isDailyDouble": false
+      },
+      {
+        "id": 2,
+        "question": "I denna asiatiska kultur är det vanligt att bruden bär en röd klänning eftersom färgen anses bringa lycka.",
+        "answer": "Vad är Kina?",
+        "isDailyDouble": false
+      },
+      {
+        "id": 3,
+        "question": "Det ursprungliga namnet för en möhippa som användes i 1500-talets bondesamhälle.",
+        "answer": "vad är en mökväll?",
+        "isDailyDouble": false
+      },
+      {
+        "id": 4,
+        "question": "Det årtionde på 1900-talet då just termen 'Möhippa' började användas",
+        "answer": "Vad är 1910-talet?",
+        "isDailyDouble": false
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "theme": "Vetenskap och natur",
+    "questions": [
+      {
+        "id": 0,
+        "question": "Den största planeten i vårt solsystem.",
+        "answer": "Vad är Jupiter",
+        "isDailyDouble": false
+      },
+      {
+        "id": 1,
+        "question": "Det kemiska tecknet för guld.",
+        "answer": "Vad är Au",
+        "isDailyDouble": false
+      },
+      {
+        "id": 2,
+        "question": "Kroppens största organ.",
+        "answer": "Vad är huden",
+        "isDailyDouble": false
+      },
+      {
+        "id": 3,
+        "question": "SI-enheten för kraft.",
+        "answer": "Vad är newton",
+        "isDailyDouble": false
+      },
+      {
+        "id": 4,
+        "question": "Molekylen som är ansvarig för att bära genetisk information i levande organismer.",
+        "answer": "Vad är DNA",
+        "isDailyDouble": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "theme": "Kända citat",
+    "questions": [
+      {
+        "id": 0,
+        "question": "\"That's one small step for man, one giant leap for mankind.\"",
+        "answer": "Vem är Neil Armstrong",
+        "isDailyDouble": false
+      },
+      {
+        "id": 1,
+        "question": "\"I think, therefore I am.\"",
+        "answer": "Vem är René Descartes",
+        "isDailyDouble": false
+      },
+      {
+        "id": 2,
+        "question": "\"The only thing we have to fear is fear itself.\"",
+        "answer": "Vem är Franklin D. Roosevelt",
+        "isDailyDouble": false
+      },
+      {
+        "id": 3,
+        "question": "\"You miss 100% of the shots you don't take.\"",
+        "answer": "Vem är Wayne Gretzky",
+        "isDailyDouble": true
+      },
+      {
+        "id": 4,
+        "question": "\"The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.\"",
+        "answer": "Vem är Martin Luther King Jr.",
+        "isDailyDouble": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "theme": "One Direction",
+    "questions": [
+      {
+        "id": 0,
+        "question": "Pojkbandet bildades i denna TV-talangtävling 2010",
+        "answer": "Vad är The X Factor",
+        "isDailyDouble": false
+      },
+      {
+        "id": 1,
+        "question": "Den blonda medlemmen i One Direction",
+        "answer": "Vem är Niall Horan?",
+        "isDailyDouble": false
+      },
+      {
+        "id": 2,
+        "question": "Namnet på  One Directions debutalbum, som släpptes 2011",
+        "answer": "Vad är Up All Night?",
+        "isDailyDouble": false
+      },
+      {
+        "id": 3,
+        "question": "Han skrev låten 'Little Things' som finns på One Directions andra album.",
+        "answer": "Vem är Ed Sheeran?",
+        "isDailyDouble": false
+      },
+      {
+        "id": 4,
+        "question": "Denna typ av elektrisk ström flödar endast i en riktning(one direction) och används ofta i batterier och elektronik.",
+        "answer": "Vad är likström (DC)?",
+        "isDailyDouble": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "theme": "Mat och dryck",
+    "questions": [
+      {
+        "id": 0,
+        "question": "Huvudingrediensen i den mexikanska rätten \"guacamole\" en krämig dip som ofta serveras med tortillachips.",
+        "answer": "Vad är avokado?",
+        "isDailyDouble": false
+      },
+      {
+        "id": 1,
+        "question": "Den primära ingrediensen i rätten \"paella\" en traditionell spansk risrätt.",
+        "answer": "Vad är ris",
+        "isDailyDouble": false
+      },
+      {
+        "id": 2,
+        "question": "Denna cocktail, bestående av vodka, kaffelikör och grädde, är uppkallad efter ett land och serveras ofta över is.",
+        "answer": "Vad är en White Russian?",
+        "isDailyDouble": false
+      },
+      {
+        "id": 3,
+        "question": "Denna italienska dessert, som betyder \"kokad grädde\" är en krämig custarddessert vanligtvis smaksatt med vanilj och toppad med karamellsås.",
+        "answer": "Vad är crème brûlée",
+        "isDailyDouble": true
+      },
+      {
+        "id": 4,
+        "question": "Huvudingrediensen i den indiska rätten \"saag paneer\" en krämig curry med bitar av indisk ost.",
+        "answer": "Vad är spenat?",
+        "isDailyDouble": false
+      }
+    ]
+  }
+]
