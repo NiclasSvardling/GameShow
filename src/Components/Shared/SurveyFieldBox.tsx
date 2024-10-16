@@ -17,7 +17,7 @@ export const SurveyFieldBox: React.FC<SurveyFieldBoxProp> = ({ controller }) => 
     <>
       <div className='flex justify-center'>
         <div className='flex-col text-white w-[fit] text-center'>
-          <div className='text-4xl mb-4'>{surveyGuess?.surveyTitle}</div>
+          <div className='text-6xl font-bold mb-4 text-white'>{surveyGuess?.surveyTitle}</div>
           <div className='text-white bg-[#ffa400] px-4 py-8 border-4 rounded-xl flex flex-row gap-4'>
             <div className='flex flex-col gap-4'>
               {surveyGuess?.surveyEntries?.slice(0, 4)?.map((survey, index) => (

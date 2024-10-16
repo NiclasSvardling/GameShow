@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "question": "Which planet is known as the Red Planet?",
+    "question": "Vilket år invigdes Eiffeltornet i Paris?",
     "options": [
       {
         "id": 1,
-        "optionText": "Venus",
-        "isCorrect": false
-      },
-      {
-        "id": 2,
-        "optionText": "Mars",
+        "optionText": "1889",
         "isCorrect": true
       },
       {
+        "id": 2,
+        "optionText": "1901",
+        "isCorrect": false
+      },
+      {
         "id": 3,
-        "optionText": "Jupiter",
+        "optionText": "1923",
         "isCorrect": false
       },
       {
         "id": 4,
-        "optionText": "Saturn",
+        "optionText": "1945",
         "isCorrect": false
       }
     ]
@@ -53,33 +53,33 @@
   },
   {
     "id": 3,
-    "question": "Which country is famous for its tulips?",
+    "question": "Vilket land är känt för sina tulpaner?",
     "options": [
       {
         "id": 1,
-        "optionText": "Netherlands",
+        "optionText": "Nederländerna",
         "isCorrect": true
       },
       {
         "id": 2,
-        "optionText": "France",
+        "optionText": "Frankrike",
         "isCorrect": false
       },
       {
         "id": 3,
-        "optionText": "Belgium",
+        "optionText": "Belgien",
         "isCorrect": false
       },
       {
         "id": 4,
-        "optionText": "Turkey",
+        "optionText": "Turkiet",
         "isCorrect": false
       }
     ]
   },
   {
     "id": 4,
-    "question": "Who painted the Mona Lisa?",
+    "question": "Vem målade Mona Lisa?",
     "options": [
       {
         "id": 1,
@@ -105,33 +105,33 @@
   },
   {
     "id": 5,
-    "question": "What is the tallest mammal?",
+    "question": "Vad kallas den kemiska processen där ett ämne tar upp syre?",
     "options": [
       {
         "id": 1,
-        "optionText": "Giraffe",
+        "optionText": "Oxidation",
         "isCorrect": true
       },
       {
         "id": 2,
-        "optionText": "Elephant",
+        "optionText": "Fotosyntes",
         "isCorrect": false
       },
       {
         "id": 3,
-        "optionText": "Hippopotamus",
+        "optionText": "Respiration",
         "isCorrect": false
       },
       {
         "id": 4,
-        "optionText": "Rhinoceros",
+        "optionText": "Hydratisering",
         "isCorrect": false
       }
     ]
   },
   {
     "id": 6,
-    "question": "Which planet has the most moons in our solar system?",
+    "question": "Vilken planet i solsystemet har flest månar?",
     "options": [
       {
         "id": 1,
@@ -157,7 +157,7 @@
   },
   {
     "id": 7,
-    "question": "What is the chemical symbol for water?",
+    "question": "Vad är den kemiska symbolen för vatten?",
     "options": [
       {
         "id": 1,
@@ -218,7 +218,7 @@
       },
       {
         "id": 2,
-        "optionText": "Earth",
+        "optionText": "Jorden",
         "isCorrect": false
       },
       {
@@ -228,14 +228,14 @@
       },
       {
         "id": 4,
-        "optionText": "Mercury",
+        "optionText": "Merkurius",
         "isCorrect": false
       }
     ]
   },
   {
     "id": 10,
-    "question": "Who wrote 'To Kill a Mockingbird'?",
+    "question": "Vem skrev 'To Kill a Mockingbird'?",
     "options": [
       {
         "id": 1,

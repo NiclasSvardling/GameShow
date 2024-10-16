@@ -38,6 +38,7 @@ body {
     overflow-x:hidden;
     /*background-color:cadetblue;*/
     background-image: url("/GameShow/bg_cyber.png");
+    background-repeat: round;
 }
 
 h1 {

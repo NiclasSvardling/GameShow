@@ -87,7 +87,9 @@ export const JeopardyGame: React.FC<JeopardyGameProps> = ({ isController }) => {
                     </div>
                     <div
                       style={{
-                        backgroundImage: question.isDailyDouble ? 'url("/DailyDouble.jpg")' : '',
+                        backgroundImage: question.isDailyDouble
+                          ? 'url("/GameShow/DailyDouble.jpg")'
+                          : '',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
                         backgroundSize: 'cover',

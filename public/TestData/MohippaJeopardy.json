@@ -37,36 +37,36 @@
   },
   {
     "id": 1,
-    "theme": "One Direction",
+    "theme": "Möhippa och bröllop",
     "questions": [
       {
         "id": 0,
-        "question": "Pojkbandet bildades i denna TV-talangtävling 2010",
-        "answer": "Vad är The X Factor",
+        "question": "Detta firas när ett par har varit gifta i 50 år och är traditionellt förknippat med en ädel metall",
+        "answer": "Var är guldbröllop?",
         "isDailyDouble": false
       },
       {
         "id": 1,
-        "question": "Den blonda medlemmen i One Direction",
-        "answer": "Vem är Niall Horan?",
+        "question": "Året då Prins Harry och Meghan Markle gifte sig",
+        "answer": "Vad är 2018?",
         "isDailyDouble": false
       },
       {
         "id": 2,
-        "question": "Namnet på  One Directions debutalbum, som släpptes 2011",
-        "answer": "Vad är Up All Night?",
+        "question": "I denna asiatiska kultur är det vanligt att bruden bär en röd klänning eftersom färgen anses bringa lycka.",
+        "answer": "Vad är Kina?",
         "isDailyDouble": false
       },
       {
         "id": 3,
-        "question": "Han skrev låten 'Little Things' som finns på One Directions andra album.",
-        "answer": "Vem är Ed Sheeran?",
+        "question": "Det ursprungliga namnet för en möhippa som användes i 1500-talets bondesamhälle.",
+        "answer": "vad är en mökväll?",
         "isDailyDouble": false
       },
       {
         "id": 4,
-        "question": "Denna typ av elektrisk ström flödar endast i en riktning(one direction) och används ofta i batterier och elektronik.",
-        "answer": "Vad är likström (DC)?",
+        "question": "Det årtionde på 1900-talet då just termen 'Möhippa' började användas",
+        "answer": "Vad är 1910-talet?",
         "isDailyDouble": false
       }
     ]
@@ -146,36 +146,36 @@
   },
   {
     "id": 4,
-    "theme": "Kista",
+    "theme": "One Direction",
     "questions": [
       {
         "id": 0,
-        "question": "Kista är en del av denna kommun",
-        "answer": "Vad är Stockholms kommun",
+        "question": "Pojkbandet bildades i denna TV-talangtävling 2010",
+        "answer": "Vad är The X Factor",
         "isDailyDouble": false
       },
       {
         "id": 1,
-        "question": "Detta stora svenska telekommunikationsföretag har sitt huvudkontor i Kista.",
-        "answer": "Vad är Ericsson?",
+        "question": "Den blonda medlemmen i One Direction",
+        "answer": "Vem är Niall Horan?",
         "isDailyDouble": false
       },
       {
         "id": 2,
-        "question": "Tredje högsta byggnaden i Sverige",
-        "answer": "Vad är Kista Science Tower",
+        "question": "Namnet på  One Directions debutalbum, som släpptes 2011",
+        "answer": "Vad är Up All Night?",
         "isDailyDouble": false
       },
       {
         "id": 3,
-        "question": "Året då Julia flyttad till Kista",
-        "answer": "Vad är 2021?",
-        "isDailyDouble": true
+        "question": "Han skrev låten 'Little Things' som finns på One Directions andra album.",
+        "answer": "Vem är Ed Sheeran?",
+        "isDailyDouble": false
       },
       {
         "id": 4,
-        "question": "Denna egyptiska faraos kista upptäcktes av Howard Carter 1922 och är en av de mest berömda upptäckterna i arkeologins historia.",
-        "answer": "Vem är Tutankhamon?",
+        "question": "Denna typ av elektrisk ström flödar endast i en riktning(one direction) och används ofta i batterier och elektronik.",
+        "answer": "Vad är likström (DC)?",
         "isDailyDouble": false
       }
     ]
@@ -205,8 +205,8 @@
       {
         "id": 3,
         "question": "Denna italienska dessert, som betyder \"kokad grädde\" är en krämig custarddessert vanligtvis smaksatt med vanilj och toppad med karamellsås.",
-        "answer": "Vad är Panna cotta",
-        "isDailyDouble": false
+        "answer": "Vad är crème brûlée",
+        "isDailyDouble": true
       },
       {
         "id": 4,

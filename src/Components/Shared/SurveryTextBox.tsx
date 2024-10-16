@@ -1,6 +1,5 @@
 import { SetStateAction } from 'react'
 import { SurveryEntryClientModel, SurveryGuessModel } from '../../Model/SurveryGuessModel'
-
 interface SurveryTextBoxProps {
   surveyBox: SurveryEntryClientModel
   index: number
@@ -53,13 +52,13 @@ export const SurveryTextBox: React.FC<SurveryTextBoxProps> = ({
           }}
           className='bg-[#3c97f6] p-2 border-4 flex justify-center'>
           {!controller && (
-            <div className='bg-[#0251c4] w-32 flex justify-center rounded-[50%] p-2'>
-              <div className='text-7xl'> {index}</div>
+            <div className='bg-[#0251c4] w-48 flex justify-center rounded-[50%] p-2'>
+              <div className='text-7xl content-center'> {index}</div>
             </div>
           )}
           {controller && (
-            <div className=' flex justify-center  p-2'>
-              <div className='text-6xl'> {surveyBox.entry}</div>
+            <div className='flex justify-center p-2'>
+              <div className='text-5xl content-center'> {surveyBox.entry}</div>
             </div>
           )}
         </div>
@@ -69,8 +68,8 @@ export const SurveryTextBox: React.FC<SurveryTextBoxProps> = ({
             transform: 'rotateX(180deg)',
           }}
           className='bg-[#0251c4] p-2 border-4 flex justify-center'>
-          <div className='flex justify-center rounded-[50%] p-2'>
-            <div className='text-7xl'> {surveyBox.entry}</div>
+          <div className='flex h-28 justify-center rounded-[50%] p-2'>
+            <div className='text-5xl content-center'> {surveyBox.entry}</div>
           </div>
         </div>
       </div>

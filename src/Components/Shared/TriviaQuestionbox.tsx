@@ -103,7 +103,8 @@ export const TriviaQuestionBox: React.FC<TriviaQuestionBoxProps> = ({ isControll
               ?.find(q => q.isCurrent)
               ?.options?.map((opt, index) => (
                 <div key={index} className=''>
-                  <div className='text-5xl'>
+                  <div
+                    className={`text-5xl ${isController && opt.isCorrect ? 'text-green-600' : ''}`}>
                     {index + 1}. {opt.optionText}
                   </div>
                 </div>
