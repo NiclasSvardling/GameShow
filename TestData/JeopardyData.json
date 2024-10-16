@@ -37,36 +37,36 @@
   },
   {
     "id": 1,
-    "theme": "Avatar: The last airbender",
+    "theme": "One Direction",
     "questions": [
       {
         "id": 0,
-        "question": "Den grönsak som gång på gång blir förstörd, mycket till en försäljares förskräck",
-        "answer": "Var är kål",
+        "question": "Pojkbandet bildades i denna TV-talangtävling 2010",
+        "answer": "Vad är The X Factor",
         "isDailyDouble": false
       },
       {
         "id": 1,
-        "question": "Namnet på det första avsnittet av serien, där Aang upptäcks i ett isberg",
-        "answer": "Vad är the boy in the iceberg",
+        "question": "Den blonda medlemmen i One Direction",
+        "answer": "Vem är Niall Horan?",
         "isDailyDouble": false
       },
       {
         "id": 2,
-        "question": "Nmnet på den imponerande staden i Jordriket som fungerar som dess huvudstad och är känd för sina imponerande murar",
-        "answer": "Vad är Ba Sing Se?",
+        "question": "Namnet på  One Directions debutalbum, som släpptes 2011",
+        "answer": "Vad är Up All Night?",
         "isDailyDouble": false
       },
       {
         "id": 3,
-        "question": "Namnet på den ande, känd som \"The face stealer\", som konfronterar Aang och hans vänner när de reser till andevärlden för att söka information om Eldnationens invasionsplaner",
-        "answer": "Vem är Koh",
+        "question": "Han skrev låten 'Little Things' som finns på One Directions andra album.",
+        "answer": "Vem är Ed Sheeran?",
         "isDailyDouble": false
       },
       {
         "id": 4,
-        "question": "Namnet på det vidsträckta biblioteket som är begravt i öknen, vaktat av en andeuggla",
-        "answer": "Vad är Wan Shi Tongs bibliotek?",
+        "question": "Denna typ av elektrisk ström flödar endast i en riktning(one direction) och används ofta i batterier och elektronik.",
+        "answer": "Vad är likström (DC)?",
         "isDailyDouble": false
       }
     ]
@@ -168,14 +168,14 @@
       },
       {
         "id": 3,
-        "question": "Året Niclas och Julia flyttade till Kista",
-        "answer": "Vad är 2021",
+        "question": "Året då Julia flyttad till Kista",
+        "answer": "Vad är 2021?",
         "isDailyDouble": true
       },
       {
         "id": 4,
         "question": "Denna egyptiska faraos kista upptäcktes av Howard Carter 1922 och är en av de mest berömda upptäckterna i arkeologins historia.",
-        "answer": "Vem är Tutankhamon",
+        "answer": "Vem är Tutankhamon?",
         "isDailyDouble": false
       }
     ]
@@ -205,8 +205,8 @@
       {
         "id": 3,
         "question": "Denna italienska dessert, som betyder \"kokad grädde\" är en krämig custarddessert vanligtvis smaksatt med vanilj och toppad med karamellsås.",
-        "answer": "Vad är crème brûlée",
-        "isDailyDouble": true
+        "answer": "Vad är Panna cotta",
+        "isDailyDouble": false
       },
       {
         "id": 4,
