@@ -1,0 +1,40 @@
+{
+  "id": 1,
+  "surveyTitle": "Julias favoritkaraktärer i lord of the rings",
+  "surveyEntries": [
+    {
+      "id": 0,
+      "entry": "Arwen"
+    },
+    {
+      "id": 1,
+      "entry": "Aragorn"
+    },
+    {
+      "id": 2,
+      "entry": "Éowyn"
+    },
+    {
+      "id": 3,
+      "entry": "Sam"
+    },
+    {
+      "id": 4,
+      "entry": "Éomer"
+    },
+    {
+      "id": 5,
+      "entry": "Witch king of Angmar"
+    },
+    {
+      "id": 6,
+      "entry": "Haldir"
+    },
+    {
+      "id": 7,
+      "entry": "Galadriel"
+    }
+  ]
+
+}
+
