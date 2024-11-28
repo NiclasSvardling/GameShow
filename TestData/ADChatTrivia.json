@@ -1,0 +1,224 @@
+[
+  {
+    "id": 1,
+    "question": "Vem har skickat flest meddelanden i år?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "Felix",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "optionText": "Kevin",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "optionText": "Emil",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "optionText": "Ullberg",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Har kevin skickat mer eller mindre än dubbelt så många än nummer 2",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "Mer",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "optionText": "Mindre",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Två meddelanden fick 9 reacts i år, villka? 1p för varje",
+    "options": [
+      
+    ]
+  },
+  {
+    "id": 4,
+    "question": "En person reagerade inte på någon av dessa, vem?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "Niclas",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "Erik",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "optionText": "Mattias",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "optionText": "Isak",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Vem får i genomsnitt flest reacts per meddelande?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "Julia",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "Niclas",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "optionText": "Mattias",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "optionText": "Andreas",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Vem har själv reagerat flest gånger på meddelanden?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "Alex",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "optionText": "Andreas",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "optionText": "Kevin",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "optionText": "Felix",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Längsta tiden mellan två meddelanden i år?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "5h",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "15h",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "optionText": "25h",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "optionText": "45",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Vilken månad i år var mest aktiv?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "Januari",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "April",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "optionText": "Juni",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "optionText": "November",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Vem har flest reacts totalt?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "Harald",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "Niclas",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "optionText": "Kevin",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "optionText": "Felix",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Har felix mer eller mindra än dubbla antalet reacts än nummer 2?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "Mer",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "optionText": "Mindre",
+        "isCorrect": false
+      }
+     
+    ]
+  }
+]
