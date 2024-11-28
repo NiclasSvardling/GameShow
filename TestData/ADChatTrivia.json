@@ -211,7 +211,7 @@
   },
   {
     "id": 10,
-    "question": "Har felix mer eller mindra än dubbla antalet reacts än nummer 2?",
+    "question": "Har felix mer eller mindre än dubbla antalet reacts än nummer 2?",
     "options": [
       {
         "id": 1,
