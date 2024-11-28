@@ -6,7 +6,7 @@
       {
         "id": 1,
         "optionText": "Felix",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "id": 2,
@@ -27,7 +27,7 @@
   },
   {
     "id": 2,
-    "question": "Har kevin skickat mer eller mindre än dubbelt så många än nummer 2",
+    "question": "Har Kevin skickat mer eller mindre än dubbelt så många än nummer 2?",
     "options": [
       {
         "id": 1,
@@ -97,6 +97,11 @@
         "id": 4,
         "optionText": "Andreas",
         "isCorrect": false
+      },
+      {
+        "id": 5,
+        "optionText": "Emil",
+        "isCorrect": false
       }
     ]
   },
@@ -147,7 +152,7 @@
       },
       {
         "id": 4,
-        "optionText": "45",
+        "optionText": "45h",
         "isCorrect": true
       }
     ]
@@ -216,6 +221,38 @@
       {
         "id": 2,
         "optionText": "Mindre",
+        "isCorrect": false
+      }
+     
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Vem har reagerat på sina egna meddelande flest gånger i år? (NAUGHTY)",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "Harald",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "optionText": "Felix",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "optionText": "Mattias",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "optionText": "Erik",
+        "isCorrect": false
+      },
+      {
+        "id": 5,
+        "optionText": "Ullberg",
         "isCorrect": false
       }
      
