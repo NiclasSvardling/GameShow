@@ -2,7 +2,7 @@ import { GameNameModel, JeopardyModel, SurveyGameModel, TranslateSongQuizModel, 
 
 
 export const fetchNameGame = async (): Promise<GameNameModel> => {
-    const response = await fetch(`${window.location.origin}/GameShow/TestData/NameGameEurovsion.json`);
+    const response = await fetch(`${window.location.origin}/GameShow/TestData/JuliaColleagueNameGame.json`);
     if (!response.ok) {
         throw new Error('Network response was not ok');
     }
@@ -31,7 +31,7 @@ export const fetchTranslateGame= async (): Promise<TranslateSongQuizModel[]> => 
 
 
 export const fetchSurveyGame = async (): Promise<SurveyGameModel> => {
-    const response = await fetch(`${window.location.origin}/GameShow/TestData/OlivaMoviesSurvey.json`);
+    const response = await fetch(`${window.location.origin}/GameShow/TestData/JuliaLotrSurvey.json`);
     console.log(response)
     if (!response.ok) {
         throw new Error('Network response was not ok');
@@ -42,7 +42,7 @@ export const fetchSurveyGame = async (): Promise<SurveyGameModel> => {
 
 
 export const fetchTriviaGame = async (): Promise<TriviaQuestion[]> => {
-    const response = await fetch(`${window.location.origin}/GameShow/TestData/TriviaData.json`);
+    const response = await fetch(`${window.location.origin}/GameShow/TestData/ADChatTrivia.json`);
     if (!response.ok) {
         throw new Error('Network response was not ok');
     }

@@ -39,6 +39,8 @@ export const GameShowController: React.FC = () => {
   const [fetchSurveyGuess, dataSurveyGuess] = useLazyGetSurveyGuessQuery()
   const [fetchJeopardyData, dataJeopardy] = useLazyGetJeopardyGameQuery()
 
+  const [emergencyAdd, setEmergencyAdd] = useState<string>('')
+
   const [timeForCountDown, setTimeForCountDown] = useState(0)
   const [timer, setTimer] = useLocalStorage<number | undefined>('CountDown', undefined)
   const [nameGameField, setNameGameField] = useLocalStorage<NameGameModel | undefined>(
@@ -66,6 +68,9 @@ export const GameShowController: React.FC = () => {
 
   const [addedTeam, setAddedTeam] = useState<string | undefined>()
   const [teams, setTeams] = useLocalStorage<TeamModel[] | undefined>('Teams', undefined)
+
+  const [localAudio, setLocalAudio] = useState<string>('/GameShow/intro.mp3')
+
   const [audioPlay, setAudioPlay] = useLocalStorage<
     { audio: string; play: boolean; seed?: number } | undefined
   >('audioPlay', { audio: '/GameShow/intro.mp3', play: false, seed: Math.random() })
@@ -81,7 +86,7 @@ export const GameShowController: React.FC = () => {
     setJeopardyGame(undefined)
     localStorage.setItem('GameType', '0')
 
-    setAudioPlay({ audio: '/GameShow/nextRound.mp3', play: true, seed: Math.random() })
+    setAudioPlay({ audio: '/GameShow/Transition.mp3', play: true, seed: Math.random() })
   }
 
   const toStartpage = () => {
@@ -113,6 +118,7 @@ export const GameShowController: React.FC = () => {
     setJeopardyGame(undefined)
 
     localStorage.setItem('GameType', '1')
+    setAudioPlay({ audio: '/GameShow/Transition.mp3', play: true, seed: Math.random() })
   }
 
   const startTranslateGame = async () => {
@@ -126,6 +132,7 @@ export const GameShowController: React.FC = () => {
     setSurveyGuess(undefined)
     setJeopardyGame(undefined)
     localStorage.setItem('GameType', '2')
+    setAudioPlay({ audio: '/GameShow/Transition.mp3', play: true, seed: Math.random() })
   }
   const startSurveyGuessGame = async () => {
     //fetchSurveyGuess()
@@ -140,6 +147,7 @@ export const GameShowController: React.FC = () => {
     setSurveyGuess(temp)
 
     localStorage.setItem('GameType', '3')
+    setAudioPlay({ audio: '/GameShow/Transition.mp3', play: true, seed: Math.random() })
   }
   const startJeopardyGame = async () => {
     //fetchJeopardyData()
@@ -151,6 +159,7 @@ export const GameShowController: React.FC = () => {
     setCurrentQuestion(undefined)
     setSurveyGuess(undefined)
     localStorage.setItem('GameType', '4')
+    setAudioPlay({ audio: '/GameShow/Transition.mp3', play: true, seed: Math.random() })
   }
 
   useEffect(() => {
@@ -260,6 +269,7 @@ export const GameShowController: React.FC = () => {
     const list: optionProps[] = [
       { id: '1', value: 'intro' },
       { id: '2', value: 'tense' },
+      { id: '3', value: 'Transition' },
     ]
     return list
   }
@@ -300,6 +310,7 @@ export const GameShowController: React.FC = () => {
           <NiButton Text='Start Jeopardy Game' onClick={() => startJeopardyGame()}></NiButton>
           <Dropdown
             onChange={e => {
+              setLocalAudio('/GameShow/' + e.currentTarget.value + '.mp3')
               setAudioPlay({ audio: '/GameShow/' + e.currentTarget.value + '.mp3', play: false })
             }}
             options={getAudioDropDown()}></Dropdown>
@@ -308,30 +319,57 @@ export const GameShowController: React.FC = () => {
             onClick={() => {
               console.log(audioPlay)
               if (audioPlay) {
-                setAudioPlay({ ...audioPlay, play: true, seed: Math.random() })
+                setAudioPlay({ audio: localAudio, play: true, seed: Math.random() })
               }
             }}></NiButton>
           <NiButton
             Text='Pause'
             onClick={() => {
               if (audioPlay) {
-                setAudioPlay({ ...audioPlay, play: false, seed: Math.random() })
+                setAudioPlay({ audio: localAudio, play: false, seed: Math.random() })
               }
             }}></NiButton>
         </div>
 
         {nameGameField && nameGameField.NameGame.length > 0 && (
-          <div
-            style={{
-              gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
-            }}
-            className='grid gap-4'>
-            {nameGameField.NameGame.map((item, index) => (
-              <div onClick={() => revealItem(item)} className='cursor-pointer' key={index}>
-                <NameGameBox item={item} hidden={false} controllerView={true}></NameGameBox>
-              </div>
-            ))}
-          </div>
+          <>
+            <div className='text-white self-center'>
+              <div className='text-2xl '>Emergency add</div>
+              <input
+                value={emergencyAdd}
+                className='mr-4 text-black'
+                type='text'
+                onChange={change => setEmergencyAdd(change.target.value)}></input>
+              <NiButton
+                disable={emergencyAdd == ''}
+                Text='Add'
+                onClick={() => {
+                  setNameGameField({
+                    ...nameGameField,
+                    NameGame: [
+                      ...nameGameField.NameGame,
+                      {
+                        id: nameGameField.NameGame.length + 1,
+                        title: emergencyAdd,
+                        revealed: false,
+                      },
+                    ],
+                  })
+                  setEmergencyAdd('')
+                }}></NiButton>
+            </div>
+            <div
+              style={{
+                gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
+              }}
+              className='grid gap-4'>
+              {nameGameField.NameGame.map((item, index) => (
+                <div onClick={() => revealItem(item)} className='cursor-pointer' key={index}>
+                  <NameGameBox item={item} hidden={false} controllerView={true}></NameGameBox>
+                </div>
+              ))}
+            </div>
+          </>
         )}
         {currentQuestion && (
           <div className='flex flex-col items-center gap-4'>
