@@ -1,0 +1,219 @@
+[
+  {
+    "id": 1,
+    "question": "Oxford Word of the Year 2025, var vilket ord?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "AI Slop",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "Rage bait",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "optionText": "Demure",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "optionText": "Goblin mode",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Vilken film blev 2025 års största biosuccé räknat i intäkter?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "Avatar: Fire and Ash",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "Zootopia 2",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "Jurassic World Rebirth",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "Ne Zha 2",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Vad var tjuvarna som rånade Louvren i år utklädda till?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "Byggarbetare",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "optionText": "Leveransbud",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "Turister",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "Säkerhetsvakter ",
+        "isCorrect": false
+      }
+
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Ice Cube medverkade i en av de sämsta filmerna som kom ut i år, en remake på War of the Worlds på Amazon Prime. Vilken av följande scener är påhittad och fanns INTE med i filmen??",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "Ice Cubes karaktär hackar sin dotters smarta kylskåp och kritiserar henne för att hon inte äter tillräckligt med ägg",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "Världen räddas av ett USB-minne som levereras med en Amazon Prime-drönare mitt under invasionen",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "optionText": "Ice Cube försöker förhandla fram en vapenvila genom att lämna en 1-stjärnig recension på utomjordingarnas moderskepp via Amazon",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "optionText": "Ice Cube antar att en hemlös person som bor i ett tält både äger en smartphone och är villig att riskera livet i utbyte mot ett Amazon-presentkort på 1 000 dollar",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Influencern Ashley St. Clair hävdade att hon fått en son tillsammans med Elon Musk. Hur många barn skulle det innebära att Musk har totalt?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "20",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "9",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "optionText": "14",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "optionText": "6",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Hur länge var TikTok bannat i USA i år?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "12 timmar",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "optionText": "2 dagar",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "optionText": "1 vecka",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "optionText": "2 veckor",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "I september satte Armand Duplantis nytt världsrekord i stavhopp i samband med VM-finalen i Tokyo. Hur högt hoppade han?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "6.30 meter",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "optionText": "6.20 meter",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "optionText": "6.10 meter",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "optionText": "6 meter",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "HUI Research brukar ta fram en så kallad årets julklapp, men har på senaste åren helt tappat det. Vad var årets skumma julklapp?",
+    "options": [
+      {
+        "id": 1,
+        "optionText": "AI-assistenten",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "optionText": "Prepping-lådan",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "optionText": "Den smarta ringen",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "optionText": "Vuxenleksaken",
+        "isCorrect": true
+      }
+    ]
+  },
+  
+  {
+    "id": 9,
+    "question": "Utslagsfråga. I år kom Battlefield 6 ut. Hur många fler kills har Niclas än Harald?",
+    "options": [
+
+    ]
+  }
+]
